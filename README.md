@@ -1,4 +1,4 @@
-<img src="assets/Java_programming_language_logo.svg" alt="Java logo" style="width: 230px;" align="right">
+<img src="assets/Java_programming_language_logo.svg" alt="Java logo" style="width: 180px;" align="right">
 
 # java-quickstarts
 Java quickstarts
