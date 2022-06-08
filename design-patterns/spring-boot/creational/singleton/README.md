@@ -25,3 +25,8 @@ For Java without Spring Boot you can run: `DemoSingleThread->main()`.
 In the terminal you should see the example's result.
 
 The code comes from: https://refactoring.guru/design-patterns/singleton/java/example
+
+## Code explained
+- [Spring @Component Annotation | Baeldung](https://www.baeldung.com/spring-component-annotation)
+    - `@Component` is used for the singleton in the Spring Boot version
+    - It is similar to other annotation like `@Controller`, `@Service`, and `@repository`
