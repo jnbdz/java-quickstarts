@@ -5,6 +5,10 @@ public final class Singleton {
     private static Singleton instance;
     public String value;
 
+    /**
+     *
+     * @param value
+     */
     private Singleton(String value) {
         // The following code emulates slow initialization.
         try {
@@ -15,6 +19,11 @@ public final class Singleton {
         this.value = value;
     }
 
+    /**
+     *
+     * @param value
+     * @return
+     */
     public static Singleton getInstance(String value) {
         if (instance == null) {
             instance = new Singleton(value);
