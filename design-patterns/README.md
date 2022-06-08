@@ -15,3 +15,4 @@
 
 ## Resources
 - [Design Patterns | refactoring.guru](https://refactoring.guru/design-patterns)
+- [Design Patterns in the Spring Framework | Baeldung](https://www.baeldung.com/spring-framework-design-patterns)
