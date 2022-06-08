@@ -14,6 +14,7 @@
     - Behavioral
 
 ## Resources
+- [Java Design Patterns - Example Tutorial - JournalDev](https://www.journaldev.com/1827/java-design-patterns-example-tutorial)
 - [Design Patterns | refactoring.guru](https://refactoring.guru/design-patterns)
 - [Design Patterns in the Spring Framework | Baeldung](https://www.baeldung.com/spring-framework-design-patterns)
 - [Java Singleton Design Pattern Example Best Practices - JournalDev](https://www.journaldev.com/1377/java-singleton-design-pattern-best-practices-examples)
