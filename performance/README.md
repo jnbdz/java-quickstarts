@@ -7,3 +7,15 @@
 - Hotspot change things and made it more about performance
 - The JVM provides automatic memory management with pluggable garbage collection subsystem (memory does not need to be track manually by the dev)
 - With Java you give up *managed subsystems* so the dev does not need to worry about capability under management
+- Performance of the JVM is based on tuning flags
+- Performance of the platform is determined more by using best practices in the application code
+- The env. for dev and testing are often considered separate areas
+- In Java 7u4 you have a new garbage collector (GC) algorithm called G1
+
+> The Java and the JVM are open source. You can contribute: http://openjdk.java.net/
+
+> You have a commercial version of the JVM it includes more tools for performance like: Java Flight Recorder
+
+> Most if these notes are for the open source version of the JVM.
+
+- Tunning flags can be different from commercial vs open source versions of the JVM
