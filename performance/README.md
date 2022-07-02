@@ -16,6 +16,30 @@
 
 > You have a commercial version of the JVM it includes more tools for performance like: Java Flight Recorder
 
-> Most if these notes are for the open source version of the JVM.
+> Most if these notes are for the open source version of the JVM. (Oracle standard (HotSpot-based))
 
-- Tunning flags can be different from commercial vs open source versions of the JVM
+- Tunning flags can be different from commercial vs open source versions of the JVM (diff. dep. on the JVM)
+- Default value for flags varies from one release to another
+
+> **Flag types:** There are two: boolean and ones that require parameter
+
+**Boolean flag:** 
+To enable: 
+```
+-XX:+*FlagName*
+```
+To disable: 
+```
+-XX:-*FlagName*
+```
+
+**Parameter flag:** 
+```
+-XX:*FlagName*=*param*
+```
+
+> Flags default values can be influence by the env and/or the command-line arguments to the JVM.
+
+> **NOTES:** Flags affected by the env is called *ergonomics*.
+
+
