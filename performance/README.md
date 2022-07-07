@@ -40,6 +40,6 @@ To disable:
 
 > Flags default values can be influence by the env and/or the command-line arguments to the JVM.
 
-> **NOTES:** Flags affected by the env is called *ergonomics*.
+> **NOTE:** Flags affected by the env is called *ergonomics*.
 
 
