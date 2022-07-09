@@ -43,3 +43,11 @@ To disable:
 > **NOTE:** Flags affected by the env is called *ergonomics*.
 
 ## Client Class and Server Class
+- Java ergonomics is based on the notion that some machines are "client" class and some are "server" class
+    - Map directly to the compiler (for specific platform)
+- The GC (garbage collector) is determined by the class of a machine
+- *Client-class* machines are any 32-bit JVM
+    - Running on Windows (regardless of the number of CPUs)
+    - Running on one CPU (regardless of the OS)
+- *Server-class* ,achines are any 64-bit JVM
+    - Any other machines
