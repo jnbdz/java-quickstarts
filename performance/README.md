@@ -47,6 +47,8 @@ To disable:
     - debug builds
     - developer builds
     - and many more
+- When built you can get more features
+- 
 
 ## Client Class and Server Class
 - Java ergonomics is based on the notion that some machines are "client" class and some are "server" class
