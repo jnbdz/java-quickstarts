@@ -43,6 +43,10 @@ To disable:
 > **NOTE:** Flags affected by the env is called *ergonomics*.
 
 - JVM from Oracle and OpenJDK sites is called the "product" build of the JVM
+- When the JVM is built from the source code you can get one of these builds types: 
+    - debug builds
+    - developer builds
+    - and many more
 
 ## Client Class and Server Class
 - Java ergonomics is based on the notion that some machines are "client" class and some are "server" class
