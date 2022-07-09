@@ -42,6 +42,8 @@ To disable:
 
 > **NOTE:** Flags affected by the env is called *ergonomics*.
 
+- JVM from Oracle and OpenJDK sites is called the "product" build of the JVM
+
 ## Client Class and Server Class
 - Java ergonomics is based on the notion that some machines are "client" class and some are "server" class
     - Map directly to the compiler (for specific platform)
@@ -51,3 +53,4 @@ To disable:
     - Running on one CPU (regardless of the OS)
 - *Server-class* ,achines are any 64-bit JVM
     - Any other machines
+
