@@ -71,4 +71,5 @@ To disable:
 - Write less code
     - Better performance
     - More obj = more have to be allocated (and discarded) -> meaning more work the garbage collector has to do
+    - More obj -> FC cycle will take longer
     - 
