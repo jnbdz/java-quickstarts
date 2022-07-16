@@ -77,4 +77,9 @@ To disable:
 
 > **NOTE:** *NetBeans* can help by flaging that might cause performance issue. For example if you have a logging that is not called because it is not set with that level of loging Java will still load the code that was put it in (like a method called inside). **Solution:** wrap it with a condition (`if`).
 
-
+Example: 
+```java
+if (l.isLoggable(Level.WARN)) {
+    log.log(...);
+}
+```
