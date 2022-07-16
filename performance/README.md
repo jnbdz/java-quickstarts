@@ -71,7 +71,7 @@ To disable:
 - Write less code
     - Better performance
     - More obj = more have to be allocated (and discarded) -> meaning more work the garbage collector has to do
-    - More obj -> FC cycle will take longer
+    - More obj -> GC cycle will take longer
     - More classes the more it needs to read from the drive (slower start)
     - More code the higher the chance it won't fit in the hardware caches
 
