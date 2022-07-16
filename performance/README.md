@@ -49,7 +49,6 @@ To disable:
     - and many more
 - When built you can get more features
     - More flags
-    - 
 
 ## Client Class and Server Class
 - Java ergonomics is based on the notion that some machines are "client" class and some are "server" class
@@ -61,3 +60,13 @@ To disable:
 - *Server-class* ,achines are any 64-bit JVM
     - Any other machines
 
+## The Story
+- You have outside influences that affect performance
+- The performance of the JVM and the Java platform is a small part of performance
+### Outside influences
+- Algorithms
+    - How well written the code is
+    - Using `HashMap` can help with arrays
+    - An example would be to use *Binary Search*
+- Write less code
+    - Better performance
