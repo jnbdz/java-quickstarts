@@ -75,3 +75,6 @@ To disable:
     - More classes the more it needs to read from the drive (slower start)
     - More code the higher the chance it won't fit in the hardware caches
 
+> **NOTE:** *NetBeans* can help by flaging that might cause performance issue. For example if you have a logging that is not called because it is not set with that level of loging Java will still load the code that was put it in (like a method called inside).
+
+
