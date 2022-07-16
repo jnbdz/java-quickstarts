@@ -70,3 +70,5 @@ To disable:
     - An example would be to use *Binary Search*
 - Write less code
     - Better performance
+    - More obj = more have to be allocated (and discarded) -> meaning more work the garbage collector has to do
+    - 
