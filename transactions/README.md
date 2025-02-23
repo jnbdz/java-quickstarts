@@ -1,4 +1,4 @@
-# Transactions | Java | Quickstarts
+# Transactions | Java | Quickstarts 🤝
 - Transaction = unit of work
 - Transaction library/manager = makes model working
 - Transaction "model" (there might be other words to describe it) = provides guarantees
@@ -88,13 +88,13 @@ Transaction library:
   - OTS/JTS
     - OTS (Object Transaction Service) standard
     - ORB services - component of the ecosystem
-  - OTS defines operations as methods on objects
-   - Using IIOP as the communication protocol
-  - JTS (Java Transaction Service)
-   - Specification for transactional interoperability between EJB containers based on CORBA, OTS and JTA
+  - [OTS](https://docs.jboss.org/jbosstm/5.0.0.M1/guides/narayana-jts-development_guide/ch03.html) defines operations as methods on objects
+    - Using IIOP as the communication protocol
+  - [JTS (Java Transaction Service)](https://en.wikipedia.org/wiki/Java_transaction_service)
+    - Specification for transactional interoperability between EJB containers based on [CORBA](https://en.wikipedia.org/wiki/Common_Object_Request_Broker_Architecture), OTS and JTA
 - JTA transactions
 - Long Running Action 🏃‍♂️
-- XTS
+- [XTS](https://docs.jboss.org/jbosstm/5.0.0.M8/guides/xts-administration_and_development_guide/) - XML Transaction Service
 - Software Transaction Memory
 - REST - AT
 
@@ -359,6 +359,7 @@ public class PaymentService {
 | Transaction Suspension              | Uses `TransactionManager.suspend()`       | Use a separate CDI bean instead                 |
 
 ## Resources
+- [What Is Java Transaction API? - Next LVL Programming | NextLVLProgramming | YouTube](https://www.youtube.com/watch?v=zOfG_4DK9lU) - Pretty good introduction
 - [Introduction to Transactions](https://www.baeldung.com/cs/transactions-intro)
 - [Introduction to Transactions in Java and Spring](https://www.baeldung.com/java-transactions)
 - [Using Transactions | Oracle](https://docs.oracle.com/javase/tutorial/jdbc/basics/transactions.html)
@@ -368,5 +369,13 @@ public class PaymentService {
 - [Narayana: Java library for transaction processing - DevConf.CZ 2021 | DevConf | YouTube](https://www.youtube.com/watch?v=2l6zKdpoPZI)
 - [Transactions, J2EE, Java EE, Jakarta EE, MicroProfile and Quarkus | Adam Bien | YouTube](https://www.youtube.com/watch?v=DFQi69briiI)
 - [Using transactions in Quarkus | quarkus.io](https://quarkus.io/guides/transaction)
+- [Managing JTA transactions with the Quarkus transaction manager | Docs | RedHat](https://docs.redhat.com/en/documentation/red_hat_build_of_quarkus/2.2/html/managing_jta_transactions_with_the_quarkus_transaction_manager/index)
 ### Jakarta EE
 - [Jakarta Transactions 2.0](https://jakarta.ee/specifications/transactions/2.0/jakarta-transactions-spec-2.0.pdf)
+- [Guide to Jakarta EE JTA](https://www.baeldung.com/jee-jta)
+### Oracle
+- [Java Transaction API (JTA) | Oracle](https://www.oracle.com/java/technologies/jta.html)
+### Narayana
+- [Transaction Guide | Docs | RedHat](https://docs.redhat.com/en/documentation/red_hat_fuse/7.0/html/transaction_guide/index)
+- [Using Software Transactional Memory in Quarkus | Quarkus](https://quarkus.io/guides/software-transactional-memory) - Software Transactional Memory (STM)
+- [Narayana LRA Participant Support | Quarkus](https://quarkus.io/guides/lra) - Long Running Action
