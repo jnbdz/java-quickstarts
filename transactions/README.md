@@ -1,4 +1,4 @@
-# Transactions | Java | Quickstarts 🤝
+# Transactions 🤝 | Java ☕  | Quickstarts 🚀
 - Transaction = unit of work
 - Transaction library/manager = makes model working
 - Transaction "model" (there might be other words to describe it) = provides guarantees
